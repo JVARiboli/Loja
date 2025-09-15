@@ -13,7 +13,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/produtos")
-
+@CrossOrigin(origins = "http://localhost:4200")
 public class ProdutoController {
     private final ProdutoService produtoService;
 
